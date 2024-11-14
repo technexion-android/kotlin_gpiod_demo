@@ -19,9 +19,10 @@ A gpio control demo using modular libgpiod way which is packaged a JNI library, 
 Visit [Google Android Developer webpage](https://developer.android.com/studio) and download it according your host OS such as Windows or Linux.
 2. Open Android-Studio after installed, click File -> Open and choose the pahe of kotlin_gpiod_demo folder.
 3. Waiting upgrade and build Gradle relate packages.
-4. Click Build -> Select Build Variant, choose debug|release mode and armeabi-v7a(ARM32)|arm64-v8a(ARM64) ABI version.
-5. Click Build -> Build Bundle(s)/APK(s) to compile apk
-6. Connect target device using USB OTG cable, wait Android-Studio detect your device, and click arrow icon (Run app) to deploy apk and run. e.g. EDM-G-IMX8MP:
+4. You may need to update gradle and dependencies version for meet your Android-Studio. Please update build.gradle files.
+5. Click Build -> Select Build Variant, choose debug|release mode and armeabi-v7a(ARM32)|arm64-v8a(ARM64) ABI version.
+6. Click Build -> Build Bundle(s)/APK(s) to compile apk
+7. Connect target device using USB OTG cable, wait Android-Studio detect your device, and click arrow icon (Run app) to deploy apk and run. e.g. EDM-G-IMX8MP:
 
 ![deploy-apk](images/deploy_apk.png)
 
